@@ -5,6 +5,19 @@
 @import "typography/typography";
 
 @import "parts/acf/modules/quote";
+@import "parts/acf/modules/text-and-image";
 
 @import "parts/templates/titles/title-home";
 @import "parts/shared/header-templates/header-style-1";
+
+.bg-green {
+  background-color: $sickly-yellow;
+}
+
+.bg-yellow {
+  background-color: $orangey-yellow;
+}
+
+.bg-blue {
+  background-color: $dusk-blue;
+}

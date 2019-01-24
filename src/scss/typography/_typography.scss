@@ -48,3 +48,33 @@ em {
   font-family: $secondary;
   font-weight: bold;
 }
+
+button {
+  border: 2px solid white;
+  padding: 10px;
+
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.white {
+  color: white;
+}
+
+.gray {
+  color: $gray;
+}
+
+.green {
+  color: $sickly-yellow;
+}
+
+.yellow {
+  color: $orangey-yellow;
+}
+
+.blue {
+  color: $dusk-blue;
+}
