@@ -1,18 +1,28 @@
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 50px 11vw;
   box-sizing: border-box;
 
   background-color: $gray;
+
+  @include respond-to(tablet) {
+    flex-direction: row;
+    align-items: center;
+  }
 
   .footer-col {
     color: white;
   }
 
   .img-wrapper {
-    width: 33%;
+    width: 100%;
+
+    @include respond-to(tablet) {
+      width: 33%;
+    }
 
     img {
       width: 100%;

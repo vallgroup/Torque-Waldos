@@ -1,6 +1,8 @@
 <div class="row text-and-image-section <?php echo $align; ?>">
 
-  <div class="col2 content-section bg-<?php echo $bg_color; ?>" >
+  <img class="image" src="<?php echo $image; ?>" />
+
+  <div class="content-section bg-<?php echo $bg_color; ?>" >
     <?php if ($title) { ?>
       <h3 class="<?php echo $title_color; ?>"><?php echo $title; ?></h3>
     <?php } ?>
@@ -19,7 +21,5 @@
       </a>
     <?php } ?>
   </div>
-
-  <img class="col2 image" src="<?php echo $image; ?>" />
 
 </div>
