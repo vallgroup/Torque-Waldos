@@ -1,0 +1,25 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 11vw;
+  box-sizing: border-box;
+
+  background-color: $gray;
+
+  .footer-col {
+    color: white;
+  }
+
+  .img-wrapper {
+    width: 33%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  p {
+    margin: 2px 0;
+  }
+}
