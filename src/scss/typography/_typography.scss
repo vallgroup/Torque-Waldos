@@ -2,23 +2,41 @@
 @import "../partials/variables";
 
 body {
-
+  font-family: $primary;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $gray;
 }
 
 h1 {
-
+  font-family: $primary;
+  font-size: 52px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
 }
 
 h2 {
-
+  font-family: $secondary;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 0.8;
 }
 
 h3 {
-
-}
-
-h4 {
-
+  font-family: $primary;
+  font-size: 34px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
 }
 
 a {
