@@ -23,9 +23,9 @@ h1 {
 }
 
 h2 {
-  font-family: $secondary;
+  font-family: $primary;
   font-size: 50px;
-  font-weight: 900;
+  font-weight: 300;
   line-height: 0.8;
 }
 
@@ -42,4 +42,9 @@ h3 {
 a {
   cursor: pointer;
   text-decoration: none;
+}
+
+em {
+  font-family: $secondary;
+  font-weight: bold;
 }

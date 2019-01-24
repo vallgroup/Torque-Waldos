@@ -1,0 +1,19 @@
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px $bodyPadding 50px;
+
+  background-size: cover;
+  color: white;
+
+  .quote-mark {
+    font-size: 1.2em;
+    font-weight: 900;
+  }
+
+  .quote-author {
+    font-size: 20px;
+  }
+}
