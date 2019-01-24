@@ -10,10 +10,15 @@ if ( have_rows( $modules ) ):
 
       case 'text_and_image' :
 
+        $bg_color = get_sub_field( 'background_color' );
         $title = get_sub_field( 'title' );
+        $subtitle = get_sub_field( 'subtitle' );
+        $title_color = get_sub_field( 'title_color' ) ;
         $content = get_sub_field( 'content' );
+        $content_color = get_sub_field( 'content_color' );
         $cta = get_sub_field( 'cta' );
         $image = get_sub_field( 'image' );
+        $align = get_sub_field( 'align' );
 
         include locate_template('/parts/acf/modules/text_and_image.php');
 
