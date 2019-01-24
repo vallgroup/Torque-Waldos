@@ -1,5 +1,7 @@
 header#header-style-1 {
   .torque-header-content-wrapper {
+    position: relative;
+    z-index: 10;
     padding-left: $bodyPadding;
     padding-right: $bodyPadding;
 
@@ -21,20 +23,6 @@ header#header-style-1 {
 
       .torque-menu-item-wrapper {
         margin: 0 10px;
-
-        .torque-menu-item {
-          font-size: 20px;
-          font-weight: bold;
-          text-transform: uppercase;
-
-          color: $gray;
-
-          &.active {
-            font-family: $secondary;
-
-            color: $orangey-yellow;
-          }
-        }
       }
     }
   }
@@ -42,6 +30,30 @@ header#header-style-1 {
   .torque-header-menu-items-mobile {
     @include respond-to(desktop) {
       display: none;
+    }
+
+    z-index: 5;
+    padding-top: 120px;
+    padding-bottom: 40px;
+
+    background-color: white;
+
+    .torque-menu-item-wrapper {
+      margin: 20px 0;
+    }
+  }
+
+  .torque-menu-item {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    color: $gray;
+
+    &.active {
+      font-family: $secondary;
+
+      color: $orangey-yellow;
     }
   }
 }
