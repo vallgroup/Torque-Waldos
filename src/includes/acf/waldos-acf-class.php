@@ -366,6 +366,75 @@ class Waldos_ACF {
       					'min' => '',
       					'max' => '',
       				),
+      				'layout_5c4b5309a5f69' => array(
+      					'key' => 'layout_5c4b5309a5f69',
+      					'name' => 'downloads_section',
+      					'label' => 'Downloads',
+      					'display' => 'block',
+      					'sub_fields' => array(
+      						array(
+      							'key' => 'field_5c4b5314a5f6a',
+      							'label' => 'Downloads',
+      							'name' => 'downloads',
+      							'type' => 'repeater',
+      							'instructions' => '',
+      							'required' => 0,
+      							'conditional_logic' => 0,
+      							'wrapper' => array(
+      								'width' => '',
+      								'class' => '',
+      								'id' => '',
+      							),
+      							'collapsed' => '',
+      							'min' => 0,
+      							'max' => 0,
+      							'layout' => 'table',
+      							'button_label' => '',
+      							'sub_fields' => array(
+      								array(
+      									'key' => 'field_5c4b5368a5f6b',
+      									'label' => 'File',
+      									'name' => 'file',
+      									'type' => 'file',
+      									'instructions' => '',
+      									'required' => 0,
+      									'conditional_logic' => 0,
+      									'wrapper' => array(
+      										'width' => '',
+      										'class' => '',
+      										'id' => '',
+      									),
+      									'return_format' => 'url',
+      									'library' => 'all',
+      									'min_size' => '',
+      									'max_size' => '',
+      									'mime_types' => '',
+      								),
+      								array(
+      									'key' => 'field_5c4b53c8a5f6c',
+      									'label' => 'Button Text',
+      									'name' => 'button_text',
+      									'type' => 'text',
+      									'instructions' => '',
+      									'required' => 0,
+      									'conditional_logic' => 0,
+      									'wrapper' => array(
+      										'width' => '',
+      										'class' => '',
+      										'id' => '',
+      									),
+      									'default_value' => '',
+      									'placeholder' => '',
+      									'prepend' => '',
+      									'append' => '',
+      									'maxlength' => '',
+      								),
+      							),
+      						),
+      					),
+      					'min' => '',
+      					'max' => '',
+      				),
       			),
       			'button_label' => 'Add Section',
       			'min' => '',
@@ -390,6 +459,7 @@ class Waldos_ACF {
       	'active' => 1,
       	'description' => '',
       ));
+
 
     endif;
   }
