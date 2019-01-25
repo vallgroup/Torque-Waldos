@@ -10,6 +10,8 @@ class Waldos_Widgets {
 
   public function modify_parent_sidebars( $sidebars ) {
     unset($sidebars['primary']);
+    unset($sidebars['footer-col-1']);
+    unset($sidebars['footer-col-2']);
     unset($sidebars['footer-col-3']);
     unset($sidebars['footer-col-4']);
 
