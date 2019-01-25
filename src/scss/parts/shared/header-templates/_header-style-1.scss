@@ -52,6 +52,8 @@ header#header-style-1 {
 
     &.active {
       font-family: $secondary;
+      font-size: 30px;
+      text-transform: none;
 
       color: $orangey-yellow;
     }
