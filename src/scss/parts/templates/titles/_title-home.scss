@@ -20,7 +20,7 @@
     object-fit: contain;
 
     @include respond-to(desktop) {
-      width: 60%;
+      width: 80%;
     }
   }
 
@@ -43,7 +43,7 @@
     }
 
     @include respond-to(desktop) {
-      width: 45%;
+      margin-left: 20%;
     }
   }
 }
