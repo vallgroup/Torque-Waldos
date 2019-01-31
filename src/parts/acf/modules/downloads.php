@@ -6,7 +6,7 @@ if ( have_rows( $downloads ) ):
 
   ?>
 
-  <div class="downloads-section bg-<?php echo $bg_color; ?>" >
+  <div class="downloads-section" style="<?php if ($bg_image) {?> background-image: url('<?php echo $bg_image; ?>'); <?php } ?>">
 
     <h2>DOWNLOADS</h2>
 
@@ -24,7 +24,8 @@ if ( have_rows( $downloads ) ):
     ?>
 
     <div class="download" >
-      <div class="image" style="background-image: url('<?php echo $image; ?>');" >
+      <div class="image-wrapper">
+        <img src="<?php echo $image; ?>" />
       </div>
 
       <a href="<?php echo $file_url; ?>" target="_blank" rel="noreferrer noopener">

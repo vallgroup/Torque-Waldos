@@ -45,7 +45,7 @@ if ( have_rows( $modules ) ):
 
       case 'downloads_section':
 
-        $bg_color = get_sub_field( 'background_color' );
+        $bg_image = get_sub_field( 'background_image' );
 
         include locate_template('/parts/acf/modules/downloads.php');
 
