@@ -3,25 +3,30 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 50px 11vw;
+  padding: 50px $bodyPadding;
   box-sizing: border-box;
 
-  background-color: $gray;
+  background-color: $dusk-blue;
   color: white;
 
-  @include respond-to(tablet) {
+  @include respond-to(desktop) {
     flex-direction: row;
-    align-items: center;
+    padding: 80px $bodyPadding;
   }
 
   h3 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+
+    @include respond-to(desktop) {
+      margin-top: 0;
+    }
   }
 
   .footer-img-wrapper {
     width: 100%;
+    max-width: 240px;
 
-    @include respond-to(tablet) {
+    @include respond-to(desktop) {
       width: 33%;
     }
 
@@ -31,30 +36,43 @@ footer {
   }
 
   .footer-contacts-wrapper {
-    padding-left: 5%;
     width: 100%;
     box-sizing: border-box;
 
-    @include respond-to(tablet) {
+    @include respond-to(desktop) {
+      flex-grow: 1;
+      padding-left: 5%;
       width: 66%;
     }
 
     .footer-contacts {
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-between;
 
       .footer-contact {
-        padding-right: 30px;
-        width: 50%;
+        margin-bottom: 30px;
+        width: 100%;
         box-sizing: border-box;
 
         @include respond-to(tablet) {
-          width: 33%;
+          padding-right: 30px;
+          width: 50%;
         }
 
-        .name {
-          font-weight: bold;
-          text-transform: uppercase;
+        @include respond-to(desktop) {
+          width: auto;
+        }
+
+        .footer-contact-field {
+          margin: 0;
+          padding-bottom: 2px;
+
+          &.role {
+            margin-bottom: 20px;
+
+            text-transform: uppercase;
+          }
         }
       }
     }

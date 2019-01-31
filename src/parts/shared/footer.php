@@ -15,7 +15,7 @@
 
       ?>
 
-      <h3>CONTACTS</h3>
+      <h3>CONTACT</h3>
 
       <div class="footer-contacts">
 
@@ -29,11 +29,9 @@
         ?>
 
         <div class="footer-contact" >
-          <p class="footer-contact-field name" ><?php the_title(); ?></p>
+          <p class="footer-contact-field role" ><?php echo $meta['role'] ?? ''; ?></p>
 
-          <?php if ($meta['role']) { ?>
-            <p class="footer-contact-field role" ><?php echo $meta['role']; ?></p>
-          <?php }?>
+          <p class="footer-contact-field name" ><?php the_title(); ?></p>
 
           <?php if ($meta['tel']) { ?>
             <p class="footer-contact-field tel" ><?php echo $meta['tel']; ?></p>
