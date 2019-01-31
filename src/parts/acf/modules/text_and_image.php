@@ -2,6 +2,8 @@
 
   <img class="image" src="<?php echo $image; ?>" />
 
+  <div class="overlay" ></div>
+
   <div class="content-section bg-<?php echo $bg_color; ?>" >
     <?php if ($title) { ?>
       <h3 class="<?php echo $title_color; ?>"><?php echo $title; ?></h3>

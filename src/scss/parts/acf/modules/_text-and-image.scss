@@ -10,6 +10,20 @@
     object-fit: cover;
   }
 
+  .overlay {
+    @include respond-to-max(desktop) {
+      display: none;
+    }
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+  }
+
   .content-section {
     padding: 20px $bodyPadding;
     height: 100%;
