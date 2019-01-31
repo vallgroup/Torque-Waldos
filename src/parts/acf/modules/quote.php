@@ -1,8 +1,12 @@
 <div class="row quote-wrapper" style="background-image: url('<?php echo $background_image; ?>');">
-  <h2 class="quote" >
-    <span class="quote-mark">"</span> <?php echo $quote; ?> <span class="quote-mark">"</span>
-  </h2>
-  <div class="quote-author">
+  <h1 class="quote" >
+    <span class="quote-mark"><em>"</em></span> <?php echo $quote; ?> <span class="quote-mark"><em>"</em></span>
+  </h1>
+  <h4 class="quote-author">
     - <?php echo $quote_author; ?>
-  </div>
+  </h4>
+
+  <?php if ($description) { ?>
+    <h4><?php echo $description ?></h4>
+  <?php } ?>
 </div>

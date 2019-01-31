@@ -3,18 +3,36 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 60px $bodyPadding;
+  padding: 30px $bodyPadding;
 
   background-size: cover;
   color: white;
   text-align: center;
 
-  .quote-mark {
-    font-size: 1.2em;
-    font-weight: 900;
+  @include respond-to(tablet) {
+    padding: 80px $bodyPadding 60px;
   }
 
-  .quote-author {
-    font-size: 20px;
+  h1,
+  h3,
+  h4 {
+    margin: 0;
+  }
+
+  h1 {
+    line-height: 0.9;
+  }
+
+  h4 {
+    margin-top: 30px;
+
+    text-transform: uppercase;
+
+    &.quote-author {
+      margin-top: 10px;
+
+      text-transform: initial;
+      font-weight: normal;
+    }
   }
 }

@@ -29,6 +29,7 @@ if ( have_rows( $modules ) ):
         $quote = get_sub_field( 'quote' );
         $quote_author = get_sub_field( 'quote_author' );
         $background_image = get_sub_field( 'background_image' );
+        $description = get_sub_field( 'description' );
 
         include locate_template('/parts/acf/modules/quote.php');
 
