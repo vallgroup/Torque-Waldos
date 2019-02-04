@@ -35,11 +35,16 @@ if ( have_rows( $modules ) ):
 
         break;
 
-      case 'image' :
+      case 'gallery' :
 
-        $image = get_sub_field('image');
+        $number_images = get_sub_field('number_images');
+        $image_1 = get_sub_field('image_1');
+        $image_2 = get_sub_field('image_2');
+        $image_3 = get_sub_field('image_3');
+        $image_2_start = get_sub_field('image_2_start');
+        $image_3_start = get_sub_field('image_3_start');
 
-        include locate_template('/parts/acf/modules/image.php');
+        include locate_template('/parts/acf/modules/gallery.php');
 
         break;
 
