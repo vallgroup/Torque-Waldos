@@ -1,7 +1,13 @@
+<?php
+
+$anchor = $anchor ? 'id="'.$anchor.'"' : '';
+
+?>
+
 
 <?php if ($number_images === '1' && $image_1) { ?>
 
-  <div class="row images-wrapper">
+  <div <?php echo $anchor; ?> class="row images-wrapper">
     <img class="gallery-col-12" src="<?php echo $image_1; ?>"/>
   </div>
 
@@ -16,7 +22,7 @@ $col_1 =  $image_2_start_int;
 
 ?>
 
-  <div class="row images-wrapper">
+  <div <?php echo $anchor; ?> class="row images-wrapper">
     <img class="gallery-col-<?php echo $col_1; ?>" src="<?php echo $image_1; ?>"/>
     <img class="gallery-col-<?php echo $col_2; ?>" src="<?php echo $image_2; ?>"/>
   </div>
@@ -34,7 +40,7 @@ $col_1 =  $image_2_start_int;
 
 ?>
 
-  <div class="row images-wrapper">
+  <div <?php echo $anchor; ?> class="row images-wrapper">
     <img class="gallery-col-<?php echo $col_1; ?>" src="<?php echo $image_1; ?>"/>
     <img class="gallery-col-<?php echo $col_2; ?>" src="<?php echo $image_2; ?>"/>
     <img class="gallery-col-<?php echo $col_3; ?>" src="<?php echo $image_3; ?>"/>

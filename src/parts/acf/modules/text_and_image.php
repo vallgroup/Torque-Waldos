@@ -1,4 +1,6 @@
-<div class="row text-and-image-section <?php echo $align; ?>">
+<div
+  <?php if ($anchor) { ?> id="<?php echo $anchor; ?>" <?php } ?>
+  class="row text-and-image-section <?php echo $align; ?>">
 
   <img class="image" src="<?php echo $image; ?>" />
 

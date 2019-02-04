@@ -57,6 +57,25 @@ class Waldos_ACF {
       					'display' => 'block',
       					'sub_fields' => array(
       						array(
+      							'key' => 'field_5c58c7aac3e43',
+      							'label' => 'Anchor',
+      							'name' => 'anchor',
+      							'type' => 'text',
+      							'instructions' => '',
+      							'required' => 0,
+      							'conditional_logic' => 0,
+      							'wrapper' => array(
+      								'width' => '',
+      								'class' => '',
+      								'id' => '',
+      							),
+      							'default_value' => '',
+      							'placeholder' => '',
+      							'prepend' => '',
+      							'append' => '',
+      							'maxlength' => '',
+      						),
+      						array(
       							'key' => 'field_5c49c0b89882e',
       							'label' => 'Background Color',
       							'name' => 'background_color',
@@ -267,6 +286,25 @@ class Waldos_ACF {
       					'display' => 'block',
       					'sub_fields' => array(
       						array(
+      							'key' => 'field_5c58c7c5c3e44',
+      							'label' => 'Anchor',
+      							'name' => 'anchor',
+      							'type' => 'text',
+      							'instructions' => '',
+      							'required' => 0,
+      							'conditional_logic' => 0,
+      							'wrapper' => array(
+      								'width' => '',
+      								'class' => '',
+      								'id' => '',
+      							),
+      							'default_value' => '',
+      							'placeholder' => '',
+      							'prepend' => '',
+      							'append' => '',
+      							'maxlength' => '',
+      						),
+      						array(
       							'key' => 'field_5c499360b7aba',
       							'label' => 'Quote',
       							'name' => 'quote',
@@ -357,6 +395,25 @@ class Waldos_ACF {
       					'label' => 'Gallery',
       					'display' => 'block',
       					'sub_fields' => array(
+      						array(
+      							'key' => 'field_5c58c7f1c3e46',
+      							'label' => 'Anchor',
+      							'name' => 'anchor',
+      							'type' => 'text',
+      							'instructions' => '',
+      							'required' => 0,
+      							'conditional_logic' => 0,
+      							'wrapper' => array(
+      								'width' => '',
+      								'class' => '',
+      								'id' => '',
+      							),
+      							'default_value' => '',
+      							'placeholder' => '',
+      							'prepend' => '',
+      							'append' => '',
+      							'maxlength' => '',
+      						),
       						array(
       							'key' => 'field_5c4993d2b7abe',
       							'label' => 'Number Images',
@@ -531,6 +588,25 @@ class Waldos_ACF {
       					'label' => 'Downloads',
       					'display' => 'block',
       					'sub_fields' => array(
+      						array(
+      							'key' => 'field_5c58c819c3e48',
+      							'label' => 'Anchor',
+      							'name' => 'anchor',
+      							'type' => 'text',
+      							'instructions' => '',
+      							'required' => 0,
+      							'conditional_logic' => 0,
+      							'wrapper' => array(
+      								'width' => '',
+      								'class' => '',
+      								'id' => '',
+      							),
+      							'default_value' => '',
+      							'placeholder' => '',
+      							'prepend' => '',
+      							'append' => '',
+      							'maxlength' => '',
+      						),
       						array(
       							'key' => 'field_5c4b5314a5f6a',
       							'label' => 'Downloads',

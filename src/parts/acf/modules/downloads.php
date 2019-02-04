@@ -6,7 +6,10 @@ if ( have_rows( $downloads ) ):
 
   ?>
 
-  <div class="downloads-section" style="<?php if ($bg_image) {?> background-image: url('<?php echo $bg_image; ?>'); <?php } ?>">
+  <div
+    <?php if ($anchor) { ?> id="<?php echo $anchor; ?>" <?php } ?>
+    class="downloads-section"
+    style="<?php if ($bg_image) {?> background-image: url('<?php echo $bg_image; ?>'); <?php } ?>">
 
     <h2>DOWNLOADS</h2>
 

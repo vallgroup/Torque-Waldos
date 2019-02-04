@@ -10,6 +10,7 @@ if ( have_rows( $modules ) ):
 
       case 'text_and_image' :
 
+        $anchor = get_sub_field('anchor');
         $bg_color = get_sub_field( 'background_color' );
         $title = get_sub_field( 'title' );
         $subtitle = get_sub_field( 'subtitle' );
@@ -26,6 +27,7 @@ if ( have_rows( $modules ) ):
 
       case 'quote' :
 
+        $anchor = get_sub_field('anchor');
         $quote = get_sub_field( 'quote' );
         $quote_author = get_sub_field( 'quote_author' );
         $background_image = get_sub_field( 'background_image' );
@@ -37,6 +39,7 @@ if ( have_rows( $modules ) ):
 
       case 'gallery' :
 
+        $anchor = get_sub_field('anchor');
         $number_images = get_sub_field('number_images');
         $image_1 = get_sub_field('image_1');
         $image_2 = get_sub_field('image_2');
@@ -50,6 +53,7 @@ if ( have_rows( $modules ) ):
 
       case 'downloads_section':
 
+        $anchor = get_sub_field('anchor');
         $bg_image = get_sub_field( 'background_image' );
 
         include locate_template('/parts/acf/modules/downloads.php');
