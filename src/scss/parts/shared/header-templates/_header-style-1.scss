@@ -16,6 +16,9 @@ header#header-style-1 {
         display: none;
       }
 
+      // IE10 fix
+      clear: none !important;
+
       display: flex;
       align-items: center;
       justify-content: flex-end;

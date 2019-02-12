@@ -61,7 +61,7 @@ footer {
         }
 
         @include respond-to(desktop) {
-          width: auto;
+          width: 33%;
         }
 
         .footer-contact-field {

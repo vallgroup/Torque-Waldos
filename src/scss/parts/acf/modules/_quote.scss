@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   padding: 30px $bodyPadding;
+  width: 100%;
+  box-sizing: border-box;
 
   background-size: cover;
   color: white;
@@ -17,6 +19,7 @@
   h3,
   h4 {
     margin: 0;
+    width: 100%;
   }
 
   h1 {
