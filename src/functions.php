@@ -91,4 +91,19 @@ function torque_enqueue_child_scripts() {
     );
 }
 
+add_action('wp_head', 'tq_hook_gtm', 0);
+function tq_hook_gtm() {
+?>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134516939-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-134516939-1');
+  </script>
+<?php
+}
+
 ?>
